@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		CEFB250823FBE38F00483918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB250723FBE38F00483918 /* AppDelegate.swift */; };
-		CEFB250A23FBE38F00483918 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB250923FBE38F00483918 /* ViewController.swift */; };
 		CEFB250D23FBE38F00483918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFB250B23FBE38F00483918 /* Main.storyboard */; };
 		CEFB250F23FBE39100483918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFB250E23FBE39100483918 /* Assets.xcassets */; };
 		CEFB251223FBE39100483918 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFB251023FBE39100483918 /* LaunchScreen.storyboard */; };
+		CEFB251A23FBE44A00483918 /* PreveiwPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB251923FBE44A00483918 /* PreveiwPage.swift */; };
+		CEFB251C23FBE4CD00483918 /* ArtCoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB251B23FBE4CD00483918 /* ArtCoverCell.swift */; };
+		CEFB251E23FBF44900483918 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB251D23FBF44900483918 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEFB250423FBE38F00483918 /* ArtCoverCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtCoverCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFB250723FBE38F00483918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEFB250923FBE38F00483918 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEFB250C23FBE38F00483918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEFB250E23FBE39100483918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEFB251123FBE39100483918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEFB251323FBE39100483918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFB251923FBE44A00483918 /* PreveiwPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreveiwPage.swift; sourceTree = "<group>"; };
+		CEFB251B23FBE4CD00483918 /* ArtCoverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCoverCell.swift; sourceTree = "<group>"; };
+		CEFB251D23FBF44900483918 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				CEFB250723FBE38F00483918 /* AppDelegate.swift */,
-				CEFB250923FBE38F00483918 /* ViewController.swift */,
+				CEFB251923FBE44A00483918 /* PreveiwPage.swift */,
 				CEFB250B23FBE38F00483918 /* Main.storyboard */,
+				CEFB251D23FBF44900483918 /* DetailVC.swift */,
+				CEFB251B23FBE4CD00483918 /* ArtCoverCell.swift */,
 				CEFB250E23FBE39100483918 /* Assets.xcassets */,
 				CEFB251023FBE39100483918 /* LaunchScreen.storyboard */,
 				CEFB251323FBE39100483918 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFB250A23FBE38F00483918 /* ViewController.swift in Sources */,
 				CEFB250823FBE38F00483918 /* AppDelegate.swift in Sources */,
+				CEFB251E23FBF44900483918 /* DetailVC.swift in Sources */,
+				CEFB251C23FBE4CD00483918 /* ArtCoverCell.swift in Sources */,
+				CEFB251A23FBE44A00483918 /* PreveiwPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
